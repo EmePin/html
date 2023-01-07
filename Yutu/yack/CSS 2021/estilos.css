@@ -1,0 +1,36 @@
+body{
+    background: beige;
+}
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+img{
+    float: left;
+    height: 250px;
+    padding: 20px;
+    border-radius: 30px;
+    /* box-shadow: 20px 20px 20px slategray; */
+}
+p{
+    
+    font-family: monospace;
+    font-size: 20px;
+
+}
+.bloque{
+    float: left;
+    width: 33.3%;
+    border: 3px red solid;
+    padding: 8px;
+    box-sizing: border-box;
+    /* box khe */
+}
+ul{
+/* 
+como hago pa que se baje  Le puse un width*/
+    font-size: 60px;
+    width: 90%;
+    margin: 40px;
+    list-style-image: url('img/doc.png');
+}

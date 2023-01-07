@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- quirks mode :modo de los años noventa -->
+<html lang="en">
+
+<head>
+    <!-- en el head van caracteristicas -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mi web</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- aqui va el contenido de la web -->
+    <!-- tablas -->
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Galletas</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>lap</td>
+                <td>$14,000</td>
+            </tr>
+            <tr>
+                <td>tortas</td>
+                <td>$14,000</td>
+            </tr>
+            <tr>
+                <td>una casa de millón</td>
+                <td>$1,000,000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: numtotal</td>
+        </tfoot>
+
+    </table>
+
+
+
+
+
+    <!-- lista ul no ordenada-->
+    <ul>
+        <li>GitLens</li>
+        <li>GitGraf</li>
+        <li>
+            <ol>
+                <li>sub 1</li>
+                <li>sub 2</li>
+                <li style="list-style-type: lower-roman;" value="a"> sub 2</li>
+                <li style="list-style-type: lower-alpha;" value="a"> sub 3</li>
+                <li>sub 5</li>
+            </ol>
+
+        <li> Taylor Swift</li>
+        <ol>
+            <li>
+                <ul>
+                    <li>sub elemento 7</li>
+                </ul>
+            </li>
+        </ol>
+        </li>
+    </ul>
+    <ol>
+        <li>Github</li>
+        <li value="53">Gitlab</li>
+    </ol>
+
+
+
+    <!-- formulario -->
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+        <input value="aimee" type="text" id="nombre" name="nombre" placeholder="Nombre">
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="pineda" type="text" id="apellido" name="apellido" placeholder="Apellido">
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea name="comentario" id="comentario" cols="40" rows="10"
+            placeholder="ingrese comentario">comentario</textarea>
+        <br>
+        <button type="reset">borrar</button>
+        <input type="submit" id="idboton" name="botonEnv" placeholder="Enviar">
+        <button type="button"><img src="img/gitLogo.png" width="10" height="10" /></button>
+        <br>
+    </form>
+    <h1>Título 1</h1>
+    <h6>Título 6</h6>
+    <p>Había una vez un pato que hacía cuack. oh no no dió un salto</p>
+    <p>ahora sí saltó</p>
+
+    <hr />
+    <h2>Título 2</h2>
+    <p>
+        <span style="color: #ff79c6">Git</span> es un software de control de
+        versiones diseñado por Linus Torvalds, pensando en la eficiencia, la
+        confiabilidad y compatibilidad del mantenimiento de <br />
+        versiones de aplicaciones cuando estas tienen un gran número de
+        archivos de código fuente.
+    </p>
+
+
+    <a target="_blank" href="https://git-scm.com/">Descarga Git</a>
+    <br>
+    <br>
+    <br>
+    <img src="img/gitLogo.png" width="100" height="100" alt="">
+    <!-- mantiene la relacion con un solo alto o ancho -->
+    <br>
+    <br>
+    <br>
+    hola mundo
+</body>
+
+</html>

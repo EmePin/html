@@ -1,0 +1,33 @@
+#fondo {
+    background-color: aquamarine;
+    height: 200px;
+    background-image: url(img/coffee.png);
+    /* height: 50px;
+    width: 100px; */
+
+    background-size: 200px 200px;
+}
+
+* {
+    font-family: 'Maven Pro', sans-serif;
+
+    text-align: justify;
+}
+
+/* cuando el link no ha sido seleccionado */
+a:link {
+    color: blueviolet;
+
+}
+
+a:visited {
+    color: greenyellow
+}
+
+a:hover {
+    color: pink;
+}
+
+a:active {
+    color: crimson;
+}

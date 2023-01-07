@@ -1,0 +1,183 @@
+<!-- html5:https://lenguajehtml.com/html/
+https://www.espai.es/blog/2015/01/cuando-debemos-poner-section-y-cuando-article/ -->
+
+
+<!DOCTYPE html>
+<!-- DOCTYPE indica qué tipo de documento debe abrir el navegador y qué sintaxis y gramática 
+utiliza su código fuente -->
+<html lang="es">
+<!-- se utiliza para determinar el idioma del texto utilizado en cualquier página web en es-->
+
+<head>
+    <!-- el head es una coleccion de metadatos que no se pueden ver pero estan en el documento -->
+    <!-- ¿qué hace el elemento meta y para qué sirven sus atributos?
+        https://developer.mozilla.org/es/docs/Web/HTML/Element/meta -->
+    <meta charset="UTF-8">
+    <!-- indica la codificación de caracteres utilizada (charset) -->
+    <!-- https://dinahosting.com/blog/que-es-utf-8/ -->
+    <!-- cada caracter que ingrese sea identificado como un caracter de idioma universal osea 
+    si escribo en chino va a poder ser identificado el caracter -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" ,chrome=1>
+    <!-- compatible con navegadores que se adapte a esos navegadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- compatible para mucahas pantallas pc y movil -->
+    <title>Títlo de la pestañita</title>
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+</head>
+
+<body>
+    <h1>Título principal</h1>
+    <section id="artículos/fut">
+        <article>
+            <h2>Título artículo uno</h2>
+            <h3>Subtítulo artículo uno</h3>
+            <br>
+            <img src="img/jisso.jpg" alt="" width="300">
+            <a href="img/jisso.jpg">ver imagen</a>
+            <br>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae molestias eum quibusdam facilis
+                voluptatibus
+                reprehenderit hic dolores magni cum aliquam ratione fuga, assumenda laboriosam consequuntur debitis
+                porro
+                cumque omnis cupiditate, <strong>hola</strong> impedit error quidem dolore consectetur quas aut.
+                Inventore,
+                assumenda dolores, soluta consectetur quo tempora accusamus molestias est totam, hic pariatur aspernatur
+            </p>
+            <a href="https://www.google.com/">+info</a>
+            <a href="index_2.html" target="_blank" >otra</a>
+        </article>
+        <article>
+            <h2>Título artículo dos</h2>
+            <h3>Subtítulo artículo dos</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae molestias eum quibusdam facilis
+                voluptatibus
+                reprehenderit hic dolores magni cum aliquam ratione fuga, assumenda laboriosam consequuntur debitis
+                porro
+                cumque omnis cupiditate, <cite>impedit error quidem dolore consectetur quas aut. Inventore,
+                    assumenda dolores, soluta consectetur quo tempora accusamus molestias est totam,</cite> hic pariatur
+                aspernatur
+            </p>
+        </article>
+    </section>
+    <!-- recomienda su curso de vsc -->
+    <section id="comentarios">
+        <h4>Comentarios</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, perferendis? Libero at magni tenetur et neque
+            a dolore quidem illo!
+        </p>
+    </section>
+
+
+
+
+
+
+    <!-- listas 
+    hay dos tipos ul sin orden
+    y ol con orden-->
+    <ul>
+        <li>dato uno</li>
+        <li>dato dos</li>
+        <li>dato tres</li>
+        <!-- select shift alt flecha hacia abajo -->
+
+    </ul>
+    <ol>
+        <li>dato uno</li>
+        <li>dato dos</li>
+        <li>dato tres</li>
+    </ol>
+    <!-- tablas -->
+    <table>
+        <thead>
+            <!-- <tr>: El elemento Fila de la tabla -->
+            <tr>
+                <th>nombre</th>
+                <th>ciudad</th>
+                <th>edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>aimee</td>
+                <td>oaxaca</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>aimee</td>
+                <td>oaxaca</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!-- formularios -->
+    <form action="archivo.php">
+        <br>
+        <div>
+            <label for="nombre">dame tu nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="nombre">
+        </div>
+        <br>
+        <div>
+            <label for="cel">celular</label>
+            <input type="number" name="cel" id="cel" maxlength="10">
+        </div>
+        <br>
+        <div>
+            <label for="contraseña">contraseña</label>
+            <input type="password" name="contraseña" id="contraseña" maxlength="8">
+        </div>
+        <br>
+        <label for="genero">genero</label>
+        <br>
+        <!-- oto lenguaje para que no se seleccionen ambas  -->
+        <input type="radio">Hombre
+        <input type="radio">Mujer
+        
+        <div>
+            <label for="comentario">comentario</label>
+            <br>
+            <textarea name="comentario" id="comentario" cols="40" rows="4"></textarea>
+        </div>
+
+        <div>
+            <label for="edad">edad</label>
+            <input type="number" name="edad" id="edad" maxlength="3">
+        </div>
+        <div>
+            <label for="fecha_nacimiento">fecha nacimiento</label>
+            <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" >
+        </div>
+
+        <div>
+            <label for="materia">selecciona una materia</label>
+            <select name="materia" id="materia">
+                <option selected value="MX">México</option>
+                <option value="calculo1">calculo1</option>
+                <option value="calculo2">calculo2</option>
+                <option value="calculo3">calculo3</option>
+            </select>
+        </div>
+
+        <div>
+
+            <input type="submit" value="enviar">
+        </div>
+        <br>
+    </form>
+
+
+
+
+
+
+
+
+    <footer>página creada por eme_aim 2023</footer>
+</body>
+
+</html>

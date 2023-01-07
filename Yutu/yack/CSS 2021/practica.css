@@ -1,0 +1,117 @@
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    
+    background-color: #efefef;
+    color: #31312c;
+    font-size: 14px;
+    margin: 0px;
+    
+}
+#cabecera{
+    background-color: #949384;
+}
+#cabecera h1{
+    font-size: 45px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+nav {
+    background-color:
+    #c1c9ba ;
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    font-size: 28px;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: inline-block;
+    color: #31312c;
+}
+nav ul li a:hover{
+    background-color:#d4caba;
+}
+
+
+#seccion-portada{
+    background-image: url('img/portada\ \(1\).jpg');
+    height: 200px;
+}
+#seccion-portada .img-portada h1{
+    color: #dedcc6;
+    text-align: center;
+    font-size: 45px;
+    padding: 78px;
+}
+#seccion-portada h1{
+    text-shadow: 5px 6px #858476;
+    margin: 0px;
+}
+.contenedor{
+    width: 90%;
+    margin: 20px; 
+    overflow: hidden;
+}
+.contenedor h1,p, img{
+    margin: 10px;
+}
+#contenido-principal{
+    float: left;
+    width: 80%;
+    box-sizing: border-box;
+}
+#anuncio{
+    float: right;
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: white;
+
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0px;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+
+}
+
+footer a:hover {
+    color: wheat;
+} 
+@media(max-width:650px){
+    #contenido-principal{
+        width: 100%;
+        float: none;
+    }
+    #anuncio{
+        width: 100%;
+        float: none;
+        /* creo que eso yo no lo */
+    }
+}

@@ -1,0 +1,45 @@
+
+/* cambio universal * */
+*{
+    background: beige;
+}
+/* selector por etiqueta */
+body{
+    background: rgb(132, 212, 183);
+}
+h1{
+    font-family: monospace;
+    background: yellow;
+    font-size: 45px;
+    text-align: center;
+}
+h2{
+    background: orange;
+}
+p{
+    background: violet;
+}
+/* selector descendente */
+div h1{
+    background: grey;
+}
+div{
+    width: 90%;
+    background: rgb(9, 226, 52);
+}
+/* selector por clases */
+.h2rosa{
+    background: pink;
+    /* display: inline; */
+}
+/* selector id */
+#pred{
+    background: purple;
+}
+
+/* elementos tipo linea */
+
+
+
+
+/* elementos tipo bloque */

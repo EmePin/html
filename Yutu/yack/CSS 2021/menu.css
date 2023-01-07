@@ -1,0 +1,35 @@
+body{
+    background: beige;
+}
+.menu{
+    
+    list-style: none;
+    background-color: pink;
+    font-size: 60px;
+    width: 350px;
+    margin: 50px;
+    padding: 0;
+    text-align: center;
+}
+.menu li{
+    border-bottom: 6px white solid;
+
+}
+.menu li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: monospace;
+    display: block;
+    padding: 14px;
+}
+.menu li a:hover{
+    background-color: hotpink;
+    color: black;
+}
+h1{
+    font-size: 60px;
+    color: blueviolet;
+    text-align: center;
+    text-shadow: 5px 3px darkgray;
+    font-family: sans-serif;
+}
