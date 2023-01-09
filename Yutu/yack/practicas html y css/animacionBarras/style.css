@@ -1,110 +1,89 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-body {
+body{
     height: 100vh;
     background-color: rgb(245, 124, 209);
 }
-
-.caja-padre {
+.caja-padre{
     width: 40%;
     min-width: 590px;
     position: absolute;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
     left: 50%;
     top: 50%;
 }
-
-.contenedor {
+.contenedor{
     width: 100%;
     padding: 30px 30px 50px;
-    background: linear-gradient(450deg, rgb(91, 62, 117), rgb(63, 59, 59));
+    background: linear-gradient(450deg,rgb(91, 62, 117),rgb(63, 59, 59));
     border: 2px solid rgba(63, 61, 61, 0.6);
     border-radius: 10px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 30px rgba(0,0,0, 0.2);
     backdrop-filter: blur;
 }
-
-.contenedor * {
+.contenedor *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: blanchedalmond;
     font-weight: 500;
 }
-
-h2 {
+h2{
     margin-bottom: 50px;
     letter-spacing: 2px;
     text-align: center;
     font-size: 34px;
     font-weight: bold;
 }
-
-.skills:not(:last-child) {
+.skills:not(:last-child){
     margin-bottom: 30px;
-
+    
 }
-
-.detalles {
+.detalles{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content:  space-between;
     margin-bottom: 10px;
 }
-
-.menu {
+.menu{
     position: relative;
     border: 1px solid pink;
     border-radius: 20px;
 }
-
-.menu div {
+.menu div{
     position: relative;
     width: 0;
     height: 8px;
     border-radius: 10px;
     background-color: blueviolet;
 }
-
-#html-menu {
-    animation: html-barra 2s forwards;
+#html-menu{
+    animation:html-barra 2s forwards;
 }
-
 @keyframes html-barra {
-    100% {
+    100%{
         width: 90%;
     }
 }
 
 
-#css-menu {
-    animation: css-barra 2s forwards;
-}
-
-#js-menu {
-    animation: js-barra 2s forwards;
-}
-
-#py-menu {
-    animation: py-barra 2s forwards;
-}
+#css-menu{ animation:css-barra 2s forwards;}
+#js-menu{ animation:js-barra 2s forwards;}
+#py-menu{ animation:py-barra 2s forwards;}
 
 @keyframes css-barra {
-    100% {
+    100%{
         width: 75%;
     }
 }
-
 @keyframes js-barra {
-    100% {
+    100%{
         width: 50%;
     }
 }
-
 @keyframes py-barra {
-    100% {
+    100%{
         width: 20%;
     }
 }
