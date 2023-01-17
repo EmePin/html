@@ -6,8 +6,8 @@ html {
 }
 
 header {
-    background-color: #364552;
-    color: wheat;
+    background-color: #333333;
+    color: white;
     
 }
 
@@ -27,7 +27,7 @@ body {
 nav {
    
     background-color:
-    #c1c9ba ;
+    #999999 ;
 }
 nav ul{
     list-style: none;
@@ -45,7 +45,9 @@ nav ul li a{
     color: #31312c;
 }
 nav ul li a:hover{
-    background-color:#d4caba;
+    background-color: 
+    rgba(34, 34, 34, 0.37);
+    color: white;
 }
 
 .seccion {

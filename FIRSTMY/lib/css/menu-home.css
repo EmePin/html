@@ -5,7 +5,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#333333,#4c4c4c,#666666,#7f7f7f,#b2b2b2);
+    background: linear-gradient(#222,#333333,#4c4c4c,#666666,#7f7f7f,#8b8b8b);
     height: 100vh;
 }
 ul{
@@ -24,13 +24,13 @@ ul li a{
     text-decoration: none;
     position: relative;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #f2f3e6;
+    color: 
+    #acacac ;
     font-size: 18px;
     padding: 7px;
     transition: 0.4s;
 }
 ul:hover li a{
-    color: #dae452;
     transform: scale(1.3);
     opacity: .2;
     filter: blur(4px);
@@ -38,6 +38,7 @@ ul:hover li a{
 
 ul li a:hover{
     transform: scale(1.8);
+    color: white;
     opacity: 1;
     filter: blur(0);
 }
@@ -47,8 +48,8 @@ ul li a:before{
     position: absolute;
     top: 0;
     left: 0;
-    background: #3d4f69;
-    
+    background: #222;
+
     width: 100%;
     height: 100%;
     transition: transform .4s;
@@ -63,3 +64,17 @@ ul li a:hover:before{
     transform: scaleX(1);
 
 }
+@media(max-width:650px){
+    #menu{
+        width: 100%;
+        float: none;
+        display: block;
+        padding: 50%;
+        text-align: center;
+
+
+    }
+    
+}
+
+

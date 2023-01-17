@@ -5,11 +5,12 @@
 }
 body{
     height: 100vh;
-    background-color: rgb(245, 124, 209);
+    background-color: rgb(43, 43, 46);
 }
+
 .caja-padre{
     width: 40%;
-    min-width: 590px;
+    min-width: .590%;
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
@@ -18,15 +19,15 @@ body{
 .contenedor{
     width: 100%;
     padding: 30px 30px 50px;
-    background: linear-gradient(450deg,rgb(91, 62, 117),rgb(63, 59, 59));
-    border: 2px solid rgba(63, 61, 61, 0.6);
+    background: linear-gradient(450deg,rgb(31, 31, 31),rgb(31, 31, 31));
+    border: 2px solid rgba(0, 0, 0, 0.24);
     border-radius: 10px;
-    box-shadow: 0 20px 30px rgba(0,0,0, 0.2);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.425);
     backdrop-filter: blur;
 }
 .contenedor *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: blanchedalmond;
+    color: white;
     font-weight: 500;
 }
 h2{
@@ -48,7 +49,7 @@ h2{
 }
 .menu{
     position: relative;
-    border: 1px solid pink;
+    border: 1px solid #b9b9b9;
     border-radius: 20px;
 }
 .menu div{
@@ -56,7 +57,7 @@ h2{
     width: 0;
     height: 8px;
     border-radius: 10px;
-    background-color: blueviolet;
+    background-color: #fff235;
 }
 #html-menu{
     animation:html-barra 2s forwards;
@@ -86,4 +87,16 @@ h2{
     100%{
         width: 20%;
     }
+}
+@media(min-width:590px){
+    #menu{
+        width: 100%;
+        float: none;
+        display: block;
+        
+        text-align: center;
+
+
+    }
+    
 }
